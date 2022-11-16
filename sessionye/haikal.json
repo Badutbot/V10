@@ -39,8 +39,8 @@
     },
     "registrationId": 244,
     "advSecretKey": "uI9oNgDbj6NYU2tgHE+pKWA7PX761SYoYMcPsBp0frY=",
-    "nextPreKeyId": 31,
-    "firstUnuploadedPreKeyId": 31,
+    "nextPreKeyId": 33,
+    "firstUnuploadedPreKeyId": 33,
     "serverHasPreKeys": true,
     "account": {
       "details": "CLOi7a0HELr2ypsGGAE=",
@@ -51,7 +51,7 @@
     "me": {
       "id": "6281349657008:17@s.whatsapp.net",
       "verifiedName": "",
-      "name": "-"
+      "name": "Badut"
     },
     "signalIdentities": [
       {
@@ -369,7 +369,18 @@
           "type": "Buffer",
           "data": "sMRf3oxE9ACq6fVdzQLlr87381OqDpEsmsG71CtkdzQ="
         }
-      }
+      },
+      "31": {
+        "private": {
+          "type": "Buffer",
+          "data": "wHAO4L5phwga9DMHDbJMkPJFrLDL6CLbo+6n/bXOHX4="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "Z+14DwtAyLkaGKv/vS6Zsx2brDGRvKpXdfTkW47ahGo="
+        }
+      },
+      "32": null
     },
     "sessions": {
       "6281349657008.0": {
@@ -388,7 +399,7 @@
             "indexInfo": {
               "baseKey": "BbdywlS4Ikyoi3H6ANFx3r+6VlGFwQnoqLpshU9Lmjoe",
               "baseKeyType": 2,
-              "closed": -1,
+              "closed": 1668563766067,
               "used": 1668463423387,
               "created": 1668463423387,
               "remoteIdentityKey": "BayfWfSHIFa7cUA4HK3ujCcE2ivRknLK6M5V3l31XRJF"
@@ -406,6 +417,44 @@
                 "chainKey": {
                   "counter": 0,
                   "key": "N6iSWgnGQDIeQ5AfIxLaJmh5/1vk2vuuQiEX+Ka4s94="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            }
+          },
+          "BSdiiM2jrWHVmnXFSaNyp06nJyVgJnQy/fLEtZMd6PFJ": {
+            "registrationId": 439672043,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BSP+3GJ/w33HOuJYp4KFWIAyosufZUhyIO7UCBxc/6Fi",
+                "privKey": "YANZeO3kzHp2LyewUb56PBDI/yZ+306CBd27K2AxAm8="
+              },
+              "lastRemoteEphemeralKey": "BdlNl3U6AYMaZy3NObZX6HiqEp4AGQ2udBXt9doTzfdg",
+              "previousCounter": 0,
+              "rootKey": "MHzzu2c4nm++uZryU7htUMguLlGp1Gxll7AnW1+0dQ8="
+            },
+            "indexInfo": {
+              "baseKey": "BSdiiM2jrWHVmnXFSaNyp06nJyVgJnQy/fLEtZMd6PFJ",
+              "baseKeyType": 2,
+              "closed": -1,
+              "used": 1668563766087,
+              "created": 1668563766086,
+              "remoteIdentityKey": "BayfWfSHIFa7cUA4HK3ujCcE2ivRknLK6M5V3l31XRJF"
+            },
+            "_chains": {
+              "BdlNl3U6AYMaZy3NObZX6HiqEp4AGQ2udBXt9doTzfdg": {
+                "chainKey": {
+                  "counter": 0,
+                  "key": "jO9TKTM2q/Pglw8t0ojlVYPSYLipYLPkD5E4C9CHbF4="
+                },
+                "chainType": 2,
+                "messageKeys": {}
+              },
+              "BSP+3GJ/w33HOuJYp4KFWIAyosufZUhyIO7UCBxc/6Fi": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "z8/3cXfhQp7xjUZ87XEpXbKmrVm6wN+rUD+y3wV+rt8="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -449,6 +498,81 @@
             "pendingPreKey": {
               "signedKeyId": 12013061,
               "baseKey": "BbGdN3EOP/g/+WSwTxnHMNfUdOu3XwEffuxOc6I61H1N"
+            }
+          }
+        },
+        "version": "v1"
+      },
+      "6281387823879.0": {
+        "_sessions": {
+          "BenR10Ct5y7uAKX2RCAsZCInhwtwz6wQxydTGy5qBLtq": {
+            "registrationId": 760503828,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "Bd3+Ynmqtc+4J5IKpfJWRqdqdTLlBXHs+N/tjvOQtKMi",
+                "privKey": "oA1Yg98fxAR1hZA1hfKFTzJUf46fQWWtTLQVEdfPgVM="
+              },
+              "lastRemoteEphemeralKey": "BaVAgQFhyXqgJGEiQaJz4VLVc8D5GIEbYsKeWz6yajRm",
+              "previousCounter": 0,
+              "rootKey": "2xCeWtHme4oHS487rIS9GI9G14Ey1LpWc6cnCIcOcs8="
+            },
+            "indexInfo": {
+              "baseKey": "BenR10Ct5y7uAKX2RCAsZCInhwtwz6wQxydTGy5qBLtq",
+              "baseKeyType": 1,
+              "closed": 1668563741513,
+              "used": 1668563740977,
+              "created": 1668563740977,
+              "remoteIdentityKey": "BaLJeGvmGwZVXo3O2chkWPkOw0YJ4coo6te036VBEbQw"
+            },
+            "_chains": {
+              "Bd3+Ynmqtc+4J5IKpfJWRqdqdTLlBXHs+N/tjvOQtKMi": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "kXWKMFv+OrUrsggvXLlu6G6U/8bmvK3pXQ6BqKIukrk="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            },
+            "pendingPreKey": {
+              "signedKeyId": 0,
+              "baseKey": "BenR10Ct5y7uAKX2RCAsZCInhwtwz6wQxydTGy5qBLtq",
+              "preKeyId": 7000676
+            }
+          },
+          "BeM1GyVp3OrKIwM4lxn8/nTfw48W946qzOeShIQLrnQM": {
+            "registrationId": 760503828,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BdELjF56FNixOzmdvjznrjAGg9bG8wEsw40OgRHyySAb",
+                "privKey": "EBgptZmqi/I6CTd/VI2Koexcyvx0K9vxPwGttmrHHUs="
+              },
+              "lastRemoteEphemeralKey": "BaVAgQFhyXqgJGEiQaJz4VLVc8D5GIEbYsKeWz6yajRm",
+              "previousCounter": 0,
+              "rootKey": "NO/flD8VZozDbjFFDs+6gD0S+dYJyvYtCGKxqS/bl/o="
+            },
+            "indexInfo": {
+              "baseKey": "BeM1GyVp3OrKIwM4lxn8/nTfw48W946qzOeShIQLrnQM",
+              "baseKeyType": 1,
+              "closed": -1,
+              "used": 1668563741494,
+              "created": 1668563741494,
+              "remoteIdentityKey": "BaLJeGvmGwZVXo3O2chkWPkOw0YJ4coo6te036VBEbQw"
+            },
+            "_chains": {
+              "BdELjF56FNixOzmdvjznrjAGg9bG8wEsw40OgRHyySAb": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "6nl3lzqRYJSjYVksvb5Iv4OrT1XwEhwxQKSvQ8aDVx0="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            },
+            "pendingPreKey": {
+              "signedKeyId": 0,
+              "baseKey": "BeM1GyVp3OrKIwM4lxn8/nTfw48W946qzOeShIQLrnQM",
+              "preKeyId": 7000398
             }
           }
         },
@@ -2012,6 +2136,9 @@
         },
         "timestamp": "1668463423796"
       }
+    },
+    "senderKeyMemory": {
+      "120363045977128740@g.us": null
     }
   }
 }
